@@ -149,21 +149,21 @@ canvas {
   font-family: var(--font-display);
   font-weight: 300;
   font-size: clamp(3.2rem, 11vw, 12rem);
-  line-height: 0.92;
+  line-height: 1.0;
   letter-spacing: -0.03em;
 }
 .display-xl {
   font-family: var(--font-display);
   font-weight: 300;
   font-size: clamp(2.6rem, 7vw, 6.5rem);
-  line-height: 0.98;
+  line-height: 1.06;
   letter-spacing: -0.028em;
 }
 .display-l {
   font-family: var(--font-display);
   font-weight: 300;
   font-size: clamp(2rem, 4.5vw, 4rem);
-  line-height: 1.02;
+  line-height: 1.12;
   letter-spacing: -0.02em;
 }
 .lead {

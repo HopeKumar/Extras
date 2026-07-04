@@ -47,11 +47,11 @@ export default function Testimonials() {
           <span className="eyebrow">08 — In Their Words</span>
         </div>
 
-        <div className="relative mt-14 min-h-[46vh] md:min-h-[40vh]">
+        <div className="mt-14 grid">
           {TESTIMONIALS.map((t, idx) => (
             <blockquote
               key={idx}
-              className="absolute inset-0 flex max-w-[22ch] flex-col justify-center transition-all duration-1000"
+              className="col-start-1 row-start-1 flex max-w-[20ch] flex-col justify-center transition-all duration-1000"
               style={{
                 opacity: idx === i ? 1 : 0,
                 transform: `translateY(${idx === i ? 0 : idx < i ? -24 : 24}px)`,

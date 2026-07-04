@@ -5,7 +5,7 @@ export const NAV_LINKS = [
   { label: "Work", href: "#work" },
   { label: "Automation", href: "#automation" },
   { label: "Process", href: "#process" },
-  { label: "Pricing", href: "#pricing" },
+  { label: "Clients", href: "#results" },
 ] as const;
 
 export const CAPABILITIES = [
@@ -228,58 +228,6 @@ export const TESTIMONIALS: Testimonial[] = [
       "We asked for software. We received a system our people actually love opening in the morning.",
     name: "Priya Anand",
     role: "COO, Atlas Logistics",
-  },
-];
-
-export type Plan = {
-  name: string;
-  price: string;
-  cadence: string;
-  summary: string;
-  features: string[];
-  featured?: boolean;
-};
-
-export const PLANS: Plan[] = [
-  {
-    name: "Signature Site",
-    price: "$12k",
-    cadence: "from · 4–6 weeks",
-    summary: "A flagship web experience designed and engineered to a museum standard.",
-    features: [
-      "Bespoke art & motion direction",
-      "Up to 6 crafted sections/pages",
-      "Custom scroll & interaction system",
-      "Performance & accessibility pass",
-      "CMS handover & training",
-    ],
-  },
-  {
-    name: "Studio Partnership",
-    price: "$9k",
-    cadence: "per month · ongoing",
-    summary: "An embedded creative-technology team for brands building continuously.",
-    features: [
-      "Dedicated design + engineering pod",
-      "Roadmap, not a backlog of tickets",
-      "Brand, product & web under one roof",
-      "AI automation built into your stack",
-      "Priority turnaround & async access",
-    ],
-    featured: true,
-  },
-  {
-    name: "Intelligence Layer",
-    price: "$18k",
-    cadence: "from · scoped",
-    summary: "AI automations and internal software engineered around how you actually work.",
-    features: [
-      "Workflow discovery & mapping",
-      "Custom agent & automation design",
-      "Secure integration with your tools",
-      "Human-in-the-loop controls",
-      "Monitoring, memory & iteration",
-    ],
   },
 ];
 

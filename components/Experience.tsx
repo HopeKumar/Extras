@@ -15,7 +15,6 @@ import CaseStudies from "@/components/sections/CaseStudies";
 import Process from "@/components/sections/Process";
 import Results from "@/components/sections/Results";
 import Testimonials from "@/components/sections/Testimonials";
-import Pricing from "@/components/sections/Pricing";
 import Faq from "@/components/sections/Faq";
 import Contact from "@/components/sections/Contact";
 import { registerGsap, ScrollTrigger } from "@/lib/gsap";
@@ -53,7 +52,6 @@ export default function Experience() {
         <Process />
         <Results />
         <Testimonials />
-        <Pricing />
         <Faq />
         <Contact />
       </main>

@@ -53,7 +53,7 @@ export default function Faq() {
       <div className="shell grid gap-12 lg:grid-cols-12">
         <div className="lg:col-span-4">
           <div className="border-t border-[color-mix(in_oklab,var(--paper)_10%,transparent)] pt-8 lg:sticky lg:top-[calc(var(--nav-h)+2rem)]">
-            <span className="eyebrow">10 — Questions</span>
+            <span className="eyebrow">09 — Questions</span>
             <h2 className="display-l mt-6 text-[var(--paper)]">
               Everything you might <span className="italic-serif text-[var(--color-stone-300)]">ask.</span>
             </h2>

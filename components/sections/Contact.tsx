@@ -30,7 +30,7 @@ export default function Contact() {
     <section id="contact" className="section relative overflow-hidden">
       <div className="shell">
         <div className="border-t border-[color-mix(in_oklab,var(--paper)_10%,transparent)] pt-8">
-          <span className="eyebrow">11 — Start a Project</span>
+          <span className="eyebrow">10 — Start a Project</span>
         </div>
 
         <div className="mt-12 grid gap-16 lg:grid-cols-12">

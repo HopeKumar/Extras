@@ -64,7 +64,7 @@ export default function AnimatedHeading({
           key={i}
           data-word
           aria-hidden="true"
-          style={{ display: "inline-block", overflow: "hidden", verticalAlign: "top", paddingBottom: "0.06em" }}
+          style={{ display: "inline-block", overflow: "hidden", verticalAlign: "top", paddingBottom: "0.16em", marginBottom: "-0.16em" }}
         >
           <span style={{ display: "inline-block", willChange: "transform" }}>
             {w}
